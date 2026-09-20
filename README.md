@@ -203,12 +203,12 @@ The dashboard is designed to help identify patterns such as:
 
 Customer_Engagement_Retention_Analytics/
 │
-├── 📄 Data_Dictionary.pdf
-├── 📊 European_Bank_Cleaned.csv
-├── 📖 README.md
-├── 📄 Research_Paper📄.pdf
-├── 🐍 app.py
-└── 📦 requirements.txt
+├── Data_Dictionary.pdf
+├── European_Bank_Cleaned.csv
+├── README.md
+├── Research_Paper.pdf
+├── app.py
+└── requirements.txt
 
 ## 🚀 Key Features
 
