@@ -201,10 +201,125 @@ The dashboard is designed to help identify patterns such as:
 
 ## 📁 Project Structure
 
-```text
 Customer_Engagement_Retention_Analytics/
 │
-├── app.py
-├── European_Bank_Cleaned.csv
-├── requirements.txt
-└── README.md
+├── 📄 Data_Dictionary.pdf
+├── 📊 European_Bank_Cleaned.csv
+├── 📖 README.md
+├── 📄 Research_Paper📄.pdf
+├── 🐍 app.py
+└── 📦 requirements.txt
+
+## 🚀 Key Features
+
+- Interactive customer engagement and retention dashboard
+- Engagement vs churn analysis
+- Product utilization and product-depth analysis
+- High-balance disengaged customer identification
+- Credit card retention analysis
+- Relationship strength analysis
+- Customer risk segmentation
+- Individual customer explorer
+- Product utilization explorer
+- Interactive customer-level analytics
+- Geography and gender filtering
+- Product count filtering
+- Balance and salary range filtering
+- Engagement and churn status filtering
+- Streamlit-based live web application
+
+## 📊 Key Analytical Areas
+
+### 1. Engagement & Churn Analysis
+Analyzes the relationship between customer activity and churn behavior to identify engagement-related retention patterns.
+
+### 2. Product Utilization Analysis
+Examines the number of banking products used by customers and compares product depth with retention and churn behavior.
+
+### 3. High-Value Disengaged Customers
+Identifies customers with high account balances but low engagement, helping highlight potentially important retention-risk segments.
+
+### 4. Credit Card Stickiness
+Compares retention behavior between customers with and without credit cards.
+
+### 5. Customer Risk Segmentation
+Groups customers into Low Risk, Medium Risk, and High Risk segments using project-defined behavioral and financial indicators.
+
+### 6. Customer Explorer
+Allows individual customer records to be explored using customer ID and displays important profile, product, balance, activity, churn, and risk information.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- Plotly
+- Streamlit
+- GitHub
+- CSV
+
+## 🌐 Live Dashboard
+
+The interactive Streamlit dashboard is deployed and available online:
+
+👉 **[Open Live Dashboard](https://customer-engagement-retention.streamlit.app/)**
+
+## 📄 Project Documentation
+
+### Data Dictionary
+`Data_Dictionary.pdf` contains:
+
+- Complete description of all 14 dataset variables
+- Data types and meanings
+- Analytical role of each variable
+- Binary variable interpretation
+- Derived dashboard fields
+- KPI-related variables
+- Data quality and validation notes
+- Dashboard filtering fields
+- Dataset-to-dashboard mapping
+
+### Research Paper
+`Research_Paper.pdf` documents:
+
+- Background and business context
+- Problem statement
+- Research objectives
+- Dataset description
+- Data preparation and validation
+- Analytical methodology
+- KPI framework
+- Dashboard architecture
+- Risk segmentation approach
+- Business implications
+- Limitations
+- Conclusion
+
+## ▶️ Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ManyaSain/Customer_Engagement_Retention_Analytics.git
+
+2. Navigate to the project folder
+cd Customer_Engagement_Retention_Analytics
+
+3. Install required libraries
+pip install -r requirements.txt
+
+4. Run the Streamlit application
+streamlit run app.py
+
+The dashboard will open in your browser.
+
+📈 Project Outcome
+
+This project provides an interactive behavioral analytics solution for understanding customer engagement, product utilization, churn patterns, and retention risk.
+
+The dashboard helps explore customer segments, identify disengaged high-balance customers, examine product depth, and support data-driven retention analysis.
+
+👩‍💻 Author
+
+Manya
+B.Tech Information Technology
+Unified Mentor – Data Analytics Internship
